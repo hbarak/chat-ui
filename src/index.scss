@@ -1,15 +1,69 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 1%;
+  background-color:grey;
 
   .spotim-header {
     text-align: center;
     background-color: #0082DD;
-    height: 150px;
-    padding: 20px;
+    height: 100px;
+    //padding: 1%;
     color: white;
     .spotim-title {
       font-size: 1.5em;
+      float:left;
+      position:relative;
+      top:20%;
+      left:1%;
+    }
+  }
+  .chat-box{
+    //background-color: blue;
+    height: 475px;
+    width:100%;
+    margin-top: 1%;
+    //width:100%;
+
+    .users-list-area{
+      float: left;
+      overflow: hidden;
+      background-color: white;
+      margin-right: 1%;
+ 
+      width:34%;
+
+      height:100%;
+    }
+
+    .massage-box{
+
+        float:left;
+        width:65%;
+        height: 100%;
+        // top, right, bottom, left
+        // margin: 0px 0px 0px 5px;
+        //background-color:rgb(226, 221, 217);
+        background-color: white;
+        border: 1px solid #ccc;
+
+        .messages{
+          //background-color: white;
+          height:87%;
+          overflow:scroll;
+        }
+
+        .text-area{
+          background-color:white;
+          border: 1px solid #ccc;
+          width:80%;
+          height: 10%;
+          margin-left: 2%
+        }
+
+        .send-button{
+          width: 5%;
+          height: 10%;
+        }
     }
   }
 }
