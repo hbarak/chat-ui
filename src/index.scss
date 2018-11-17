@@ -17,59 +17,84 @@ body {
       left:1%;
     }
   }
-  .chat-box{
-    //background-color: blue;
-    height: 475px;
+  .chat-box-wrapper{
+    //height: 100%;
+    height: 450px;
     width:100%;
     margin-top: 1%;
-    //width:100%;
+    background-color: rgb(230, 227, 224);
+  }
 
-    .users-list-area{
-      float: left;
-      overflow: hidden;
-      background-color: white;
-      margin-right: 1%;
- 
-      width:34%;
 
-      height:100%;
+  .chat-box{
+    //float:left;
+    width:100%;
+    height: 100%;
+    margin: 2% 2% 2% 2%;
+  }
+  .chat-first{
+    height:80%;
+    width:100%;
+  }
+  .chat-second{
+    height:20%;
+    width:100%;
+  }
+  // .choose-avatr{
+  //   margin: 2% 2% 2% 2%;
+  //   //height:77%;
+  //   //width: 15%;
+  //   float:right;
+  // }
+  .messages{
+    margin-top: 2%;
+    height:100%;
+    width:90%;
+    overflow-y:scroll;
+    float:left;
+    .my-message{
+      color: #0082DD;
     }
+    li{
+      font-size: 1.2em;
+      line-height: 80px;
+      list-style-type: none;
 
-    .massage-box{
-
+      img{
         float:left;
-        width:65%;
-        height: 100%;
-        // top, right, bottom, left
-        // margin: 0px 0px 0px 5px;
-        //background-color:rgb(226, 221, 217);
-        background-color: white;
-        border: 1px solid #ccc;
-
-        .messages{
-          //background-color: white;
-          height:87%;
-          overflow:scroll;
-        }
-
-        .text-area{
-          background-color:white;
-          border: 1px solid #ccc;
-          width:80%;
-          height: 10%;
-          margin-left: 2%
-        }
-
-        .send-button{
-          width: 5%;
-          height: 10%;
-        }
+        max-height:40px;
+      }
+      p{
+        float:left;
+        width:90%;
+        height:5%;
+        margin-left: 2%;
+        margin-bottom: 3%;
+        word-wrap: break-word;
+      }
     }
   }
+  .barak{
+    background-color: #0082DD;
+  }
+
+  .avatar{
+    max-height:40px;
+  }
+
+  .username-area{
+    background-color:white;
+    border: 1px solid #ccc;
+  }
+
+  .text-area{
+    background-color:white;
+    border: 1px solid #ccc;
+    margin-right:2%;
+    height: 100%;
+  }
+  .send-button{
+    width: 5%;
+    height: 10%;
+  }
 }
-
-
-
-
-
-

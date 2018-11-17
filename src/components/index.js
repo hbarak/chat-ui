@@ -5,7 +5,7 @@ import React from 'react'
 import logo from '../assets/spotim-logo.jpg'
 import {Container, Image} from 'semantic-ui-react'
 import styled from 'styled-components';
-import ChatBox from "./MessageBox";
+import ChatBox from "./ChatBox";
 
 const Logo = styled.div`
       img{
@@ -43,5 +43,8 @@ class App extends React.PureComponent {
       </span>
     );
   }
+  // changeAvatar(newAvatar){
+  //   this.props.avatar = newAvatar;
+  // }
 }
 export default App;
