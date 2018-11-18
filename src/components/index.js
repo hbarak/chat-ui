@@ -43,8 +43,5 @@ class App extends React.PureComponent {
       </span>
     );
   }
-  // changeAvatar(newAvatar){
-  //   this.props.avatar = newAvatar;
-  // }
 }
 export default App;
